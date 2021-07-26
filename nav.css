@@ -1,0 +1,94 @@
+nav{
+    margin-left: 200px;
+}
+
+nav>ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0 10px;
+}
+nav li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+}
+nav li button{
+    font-size: 25px;
+    text-decoration: none;
+    
+    
+}
+.card-body > ul{
+    display: block;
+}
+.dp img{
+    width: 262px;
+    height: 125px;
+    
+}
+.col{
+    width: 300px;
+    
+}
+.card{
+    font-size: 2px;
+    height: 350px;
+    color: salmon; 
+    word-wrap: nowrap;
+    border: solid 7px;
+    border-image: linear-gradient(180deg,rgb(25, 0, 255),rgb(135, 223, 235));
+    border-image-slice: 1; 
+    box-shadow: 5px 7px 40px gray;
+    border-radius: 20px;
+
+}
+.card h5{
+    font-size: 23px;
+    font-family: 'Teko', sans-serif;
+    
+}
+.dp{
+    display: none;
+    position: absolute;
+    
+}
+nav > ul > li> button:hover> div.dp{
+    display: block;
+    
+    width: 1100px;
+    padding-left: 100px;
+    height: 830px;
+    box-shadow: 5px 7px 40px gray;
+    border-radius: 20px;
+    border: solid 7px;
+    border-image: linear-gradient(180deg,rgb(255, 0, 106),rgb(235, 158, 135));
+    border-image-slice: 1;
+    background: linear-gradient(rgba(66, 3, 3, 0.829), rgba(255, 0, 85, 0.555));
+    content: '';
+    z-index: -1;
+
+}
+nav > ul > li:hover> div.dp{
+    
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    width: 300px;
+    height: 200px;
+    
+    box-shadow: 5px 7px 40px gray;
+    border-radius: 20px;
+    border: solid 7px;
+    border-image: linear-gradient(180deg,blue,skyblue);
+    border-image-slice: 1;
+    background: linear-gradient(rgba(253, 152, 152, 0.829), rgb(255, 151, 224));
+    content: '';
+    z-index: -1;
+
+}
